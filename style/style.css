@@ -1,0 +1,62 @@
+
+#head{ 
+    size: 22pt;
+    padding:0in;
+    color: steelblue;
+    font-size: 30px;
+}
+#image{
+    width: 100%;
+}
+.image{
+    background: url("./kietmcajpg");
+    width: max-content;
+    background-size: cover;
+}
+.header{
+    background:#24252A;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 30px 10%;
+
+}
+a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.hover{
+    background: #1b9bff;
+    transition: 0.5s;
+
+}
+
+.toplinks{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 5px 10%;
+}
+.main{
+    background-color:steelblue;
+    font-size: 40px;
+    text-align: center;
+}
+.intro{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+li:hover{  /* pseudoselector */
+    color: #24252A;
+    font-size: 24px;
+}
+h3 {
+    font-style: oblique;
+    text-emphasis-color: black;
+}
